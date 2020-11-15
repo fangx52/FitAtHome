@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="147dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtVwName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:text="Name"
+            android:textColor="@color/colorDescription"
+            android:fontFamily="monospace"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/ytbPlaylist"
+            android:layout_width="240dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txtVwDescription"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorDescriptionLight" />
+
+
+    </LinearLayout>
+</LinearLayout>

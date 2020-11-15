@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fit at Home</string>
+    <string-array name="workouts">
+        <item>Cardio</item>
+        <item>Dance</item>
+        <item>Running</item>
+        <item>Yoga</item>
+        <item>Meditation</item>
+        <item>HIIT</item>
+        <item>Pilates</item>
+        <item>Stretching</item>
+        <item>Cool-Down</item>
+        <item>Equipment</item>
+        <item>Upper-Body</item>
+        <item>Lower-Body</item>
+    </string-array>
+</resources>
